@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ app()->getLocale() }}" dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }}">
 
 <head>
     <title>Kids-project</title>
@@ -24,7 +24,8 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<body style="direction: {{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }}" data-spy="scroll"
+    data-target=".site-navbar-target" data-offset="300">
 
 
     <div class="site-wrap" id="home-section">
@@ -70,10 +71,10 @@
 
                     <nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav mr-auto ">
-                            <li class="active"><a href="/home" class="nav-link">Home</a></li>
-                            <li><a href="/about" class="nav-link">About</a></li>
-                            <li><a href="games" class="nav-link">Games</a></li>
-                            <li><a href="/contact" class="nav-link">Contact</a></li>
+                            <li class="active"><a href="/home" class="nav-link">{{ __('message.home') }}</a></li>
+                            <li><a href="/about" class="nav-link">{{ __('message.about') }}</a></li>
+                            <li><a href="games" class="nav-link">{{ __('message.games') }}</a></li>
+                            <li><a href="/contact" class="nav-link">{{ __('message.contact') }}</a></li>
                         </ul>
                     </nav>
 
@@ -84,8 +85,33 @@
                         <a href="https://github.com/Faysal2000" target="_blank"><span
                                 class="icon-github text-black   "></span></a>
                     </div>
+
+
+
+                    <div class="dropdown-center">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Language
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="{{ url('locale/en') }}">English</a></li>
+                            <li><a class="dropdown-item" href="{{ url('locale/ar') }}">العربية</a></li>
+                            <li><a class="dropdown-item" href="{{ url('locale/tr') }}">Türkçe</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+
+
+
+
                 </div>
             </div>
+
+
+
 
 
 
@@ -196,6 +222,25 @@
     <script src="js/aos.js"></script>
 
     <script src="js/main.js"></script>
+
+
+    <script>
+        const btn = document.getElementById('languageButton');
+        const menu = document.getElementById('languageMenu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // إغلاق القائمة إذا ضغطت خارجها
+        window.addEventListener('click', function(e) {
+            if (!btn.contains(e.target) && !menu.contains(e.target)) {
+                menu.classList.add('hidden');
+            }
+        });
+    </script>
+
+
 
 </body>
 

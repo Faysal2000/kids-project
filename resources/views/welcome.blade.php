@@ -5,10 +5,11 @@
         <div class="container">
             <div class="row align-items-center ">
                 <div class="col-md-5 mt-5 pt-5">
-                    <span class="text-cursive h5 text-red">Welcome To Our Website</span>
-                    <h1 class="mb-3 font-weight-bold text-teal">Bring Fun Life To Your Kids</h1>
-                    <p>Amazing Playground for your kids</p>
-                    <p class="mt-5"><a href="#" class="btn btn-primary py-4 btn-custom-1">Learn More</a></p>
+                    <span class="text-cursive h5 text-red">{{ __('message.welcome') }}</span>
+                    <h1 class="mb-3 font-weight-bold text-teal">{{ __('message.bring fun life to your kids') }}</h1>
+                    <p>{{ __('message.amazing playground for your kids') }}</p>
+                    <p class="mt-5"><a href="#"
+                            class="btn btn-primary py-4 btn-custom-1">{{ __('message.learn_more') }}</a></p>
                 </div>
                 <div class="col-md-6 ml-auto align-self-end">
                     <img src="images/kid_transparent.png" alt="Image" class="img-fluid">

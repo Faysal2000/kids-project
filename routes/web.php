@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Spatie\FlareClient\View;
-
+use App\Http\Controllers\LangController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -48,3 +48,11 @@ Route::get('/about', function () {
 Route::get('/games', function () {
     return view('games');
 });
+
+
+
+
+
+//language route
+
+Route::get('/lang/{lang}', [LangController::class, 'change']);
