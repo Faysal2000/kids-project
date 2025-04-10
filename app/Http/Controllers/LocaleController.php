@@ -3,19 +3,19 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Session;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
 
-class LangController extends Controller
+class LocaleController extends Controller
 {
-    public function change($lang)
+    public function setLocale($lang)
     {
+
         if (in_array($lang, ['en', 'ar', 'tr'])) {
             App::setLocale($lang);
             Session::put('locale', $lang);
         }
-
-        return back(); // للرجوع إلى الصفحة السابقة
+        return back();
     }
 }

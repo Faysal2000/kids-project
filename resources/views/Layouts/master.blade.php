@@ -51,7 +51,7 @@
             <div class="container mb-3">
                 <div class="d-flex align-items-center">
                     <div class="site-logo mr-auto">
-                        <a href="index.html">Faysal-Store<span class="text-primary">.</span></a>
+                        <a href="index.html">Kids-project<span class="text-primary">.</span></a>
                     </div>
                     <div class="site-quick-contact d-none d-lg-flex ml-auto ">
 
@@ -71,8 +71,8 @@
 
                     <nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav mr-auto ">
-                            <li class="active"><a href="/home" class="nav-link">{{ __('message.home') }}</a></li>
-                            <li><a href="/about" class="nav-link">{{ __('message.about') }}</a></li>
+                            <li class="main_nav_item"><a href="#">{{ __('message.home') }}</a></li>
+                            <li class="main_nav_item"><a href="#">{{ __('message.about') }}</a></li>
                             <li><a href="games" class="nav-link">{{ __('message.games') }}</a></li>
                             <li><a href="/contact" class="nav-link">{{ __('message.contact') }}</a></li>
                         </ul>
@@ -88,17 +88,16 @@
 
 
 
-                    <div class="dropdown-center">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Language
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="{{ url('locale/en') }}">English</a></li>
-                            <li><a class="dropdown-item" href="{{ url('locale/ar') }}">العربية</a></li>
-                            <li><a class="dropdown-item" href="{{ url('locale/tr') }}">Türkçe</a></li>
-                        </ul>
-                    </div>
+                    <li class="nav-item dropdown">
+                        <a class="nav-item mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                            role="button">
+
+                    <li><a class="dropdown-item" href="{{ url('locale/en') }}">English</a></li>
+                    <li><a class="dropdown-item" href="{{ url('locale/ar') }}">العربية</a></li>
+                    <li><a class="dropdown-item" href="{{ url('locale/tr') }}">Türkçe</a></li>
+
+                    </a>
+                    </li>
 
 
 

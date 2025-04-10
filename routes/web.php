@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use Spatie\FlareClient\View;
 use App\Http\Controllers\LangController;
+use App\Http\Controllers\LocaleController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -54,5 +56,4 @@ Route::get('/games', function () {
 
 
 //language route
-
-Route::get('/lang/{lang}', [LangController::class, 'change']);
+Route::get('locale/{lang}', [LocaleController::class, 'setLocale']);
