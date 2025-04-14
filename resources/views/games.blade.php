@@ -9,11 +9,9 @@
                 <div class="row align-items-center ">
 
                     <div class="col-md-5 mt-5 pt-5">
-                        <span class="text-cursive h5 text-red">Welcome To Our Website</span>
-                        <h1 class="mb-3 font-weight-bold text-teal">Games</h1>
-                        <p><a href="index.html" class="text-white">Home</a> <span class="mx-3">/</span>
-                            <strong>Packages</strong>
-                        </p>
+                        <span class="text-cursive h5 text-red">{{ __('message.welcome') }}</span>
+                        <h1 class="mb-3 font-weight-bold text-teal">{{ __('message.games') }}</h1>
+
                     </div>
 
                 </div>

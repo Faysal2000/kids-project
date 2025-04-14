@@ -51,7 +51,7 @@
             <div class="container mb-3">
                 <div class="d-flex align-items-center">
                     <div class="site-logo mr-auto">
-                        <a href="index.html">Kids-project<span class="text-primary">.</span></a>
+                        <a href="index.html">FaysalStore<span class="text-primary">.</span></a>
                     </div>
                     <div class="site-quick-contact d-none d-lg-flex ml-auto ">
 
@@ -71,8 +71,8 @@
 
                     <nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav mr-auto ">
-                            <li class="main_nav_item"><a href="#">{{ __('message.home') }}</a></li>
-                            <li class="main_nav_item"><a href="#">{{ __('message.about') }}</a></li>
+                            <li class="main_nav_item"><a href="/home">{{ __('message.home') }}</a></li>
+                            <li class="main_nav_item"><a href="/about">{{ __('message.about') }}</a></li>
                             <li><a href="games" class="nav-link">{{ __('message.games') }}</a></li>
                             <li><a href="/contact" class="nav-link">{{ __('message.contact') }}</a></li>
                         </ul>
@@ -88,16 +88,13 @@
 
 
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-item mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                            role="button">
+
 
                     <li><a class="dropdown-item" href="{{ url('locale/en') }}">English</a></li>
                     <li><a class="dropdown-item" href="{{ url('locale/ar') }}">العربية</a></li>
                     <li><a class="dropdown-item" href="{{ url('locale/tr') }}">Türkçe</a></li>
 
-                    </a>
-                    </li>
+
 
 
 
@@ -130,51 +127,30 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
         <footer class="site-footer">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5">
-                        <h2 class="footer-heading mb-3">About Us</h2>
-                        <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and
-                            Consonantia, there live the blind texts. </p>
+                        <h2 class="footer-heading mb-3">{{ __('message.about') }}</h2>
+                        <p class="mb-5"> {{ __('message.about text2') }}</p>
 
-                        <h2 class="footer-heading mb-4">Newsletter</h2>
+                        <h2 class="footer-heading mb-4">{{ __('message.Newsletter') }}</h2>
                         <form action="#" class="d-flex" class="subscribe">
-                            <input type="text" class="form-control mr-3" placeholder="Email">
-                            <input type="submit" value="Send" class="btn btn-primary">
+                            <input type="text" class="form-control mr-3" placeholder="{{ __('message.email') }}">
+                            <input type="submit" value="{{ __('message.send') }}" class="btn btn-primary">
                         </form>
                     </div>
                     <div class="col-lg-8 ml-auto">
                         <div class="row">
-                            <div class="col-lg-4 ml-auto">
+
+                            <div class="text-center col-lg-4">
                                 <h2 class="footer-heading mb-4">Navigation</h2>
-                                <ul class="list-unstyled">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Testimonials</a></li>
-                                    <li><a href="#">Terms of Service</a></li>
-                                    <li><a href="#">Privacy</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-4">
-                                <h2 class="footer-heading mb-4">Navigation</h2>
-                                <ul class="list-unstyled">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Testimonials</a></li>
-                                    <li><a href="#">Terms of Service</a></li>
-                                    <li><a href="#">Privacy</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                <ul class=" list-unstyled">
+                                    <li><a href="/about">{{ __('message.about') }}</a></li>
+                                    <li><a href="#">{{ __('message.Testimonials') }}</a></li>
+                                    <li><a href="#">{{ __('message.Terms of Service') }}</a></li>
+                                    <li><a href="#">{{ __('message.Privacy') }}</a></li>
+                                    <li><a href="#">{{ __('message.Contact Us') }}</a></li>
                                 </ul>
 
                             </div>
@@ -188,14 +164,12 @@
                     <div class="col-md-12">
                         <div class="border-top pt-5">
                             <p>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                 Copyright &copy;
                                 <script>
                                     document.write(new Date().getFullYear());
-                                </script> All rights reserved | This template is made with <i
-                                    class="icon-heart text-danger" aria-hidden="true"></i> by <a href="#"
-                                    target="_blank">Colorlib</a>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                </script> All rights reserved | This project is made with <i
+                                    class="icon-heart text-danger" aria-hidden="true"></i> | "AR Solar System"
+                                Educational Project
                             </p>
                         </div>
                     </div>
@@ -231,7 +205,6 @@
             menu.classList.toggle('hidden');
         });
 
-        // إغلاق القائمة إذا ضغطت خارجها
         window.addEventListener('click', function(e) {
             if (!btn.contains(e.target) && !menu.contains(e.target)) {
                 menu.classList.add('hidden');
