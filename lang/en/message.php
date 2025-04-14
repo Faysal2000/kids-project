@@ -33,7 +33,7 @@ return [
     'use2' => 'When the app opens, point your camera at the target surface.',
     'use3' => 'Select the planets and start interactive learning.',
 
-    'benefits' => 'Benefits',
+    'benefits' => 'Benefits of the project',
     'benefits1' => 'Makes learning fun.',
     'benefits2' => 'Enhances visual memory.',
     'benefits3' => 'Supports STEM education.',
@@ -47,7 +47,8 @@ return [
     'last name' => 'Last Name',
     'email adress' => 'Email Adress',
     'write your message' => 'write your message',
-    'Games You Like' => '',
+    'Games You Like' => 'Games You Like',
+    'Little Astronauts' => 'Little Astronauts',
 
 
 

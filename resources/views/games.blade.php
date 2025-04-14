@@ -24,8 +24,8 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col-12 text-center">
-                    <span class="text-cursive h5 text-red d-block">Games You Like</span>
-                    <h2 class="text-white">Our Games</h2>
+                    <span class="text-cursive h5 text-red d-block">{{ __('message.Games You Like') }}</span>
+                    <h2 class="text-white">{{ __('message.games') }}</h2>
                 </div>
             </div>
             <div class="row">
@@ -33,32 +33,13 @@
                     <div class="package text-center bg-white">
                         <span class="img-wrap"><img src="images/flaticon/svg/001-jigsaw.svg" alt="Image"
                                 class="img-fluid"></span>
-                        <h3 class="text-teal">Indoor Games</h3>
-                        <p>Lorem ipsum dolor sit amet. Consequatur aliquam, fuga maiores amet quo corporis distinctio soluta
-                            recusandae?</p>
-                        <p><a href="#" class="btn btn-primary btn-custom-1 mt-4">Learn More</a></p>
+                        <h3 class="text-teal">{{ __('message.AR Solar System') }}</h3>
+                        <p>{{ __('message.bring fun life to your kids') }}</p>
+                        <p><a href="#" class="btn btn-primary btn-custom-1 mt-4">{{ __('message.learn more') }}</a>
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="package text-center bg-white">
-                        <span class="img-wrap"><img src="images/flaticon/svg/002-target.svg" alt="Image"
-                                class="img-fluid"></span>
-                        <h3 class="text-success">Outdoor Game and Event</h3>
-                        <p>Lorem ipsum dolor sit amet. Consequatur aliquam, fuga maiores amet quo corporis distinctio soluta
-                            recusandae?</p>
-                        <p><a href="#" class="btn btn-warning btn-custom-1 mt-4">Learn More</a></p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="package text-center bg-white">
-                        <span class="img-wrap"><img src="images/flaticon/svg/003-mission.svg" alt="Image"
-                                class="img-fluid"></span>
-                        <h3 class="text-danger">Camping for Kids</h3>
-                        <p>Lorem ipsum dolor sit amet. Consequatur aliquam, fuga maiores amet quo corporis distinctio soluta
-                            recusandae?</p>
-                        <p><a href="#" class="btn btn-success btn-custom-1 mt-4">Learn More</a></p>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>

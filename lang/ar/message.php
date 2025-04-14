@@ -48,6 +48,8 @@ return [
     'last name' => 'الاسم الاخير',
     'email adress' => 'الايميل',
     'write your message' => 'اكتب رسالتك',
+    'Games You Like' => 'الألعاب المفضلة',
+    'Little Astronauts' => 'روّاد الفضاء الصغار',
 
 
 

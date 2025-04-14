@@ -42,80 +42,8 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-lg-4 ml-auto">
-                    <div class="bg-white p-3 p-md-5">
-                        <h3 class="text-black mb-4">Contact Info</h3>
-                        <ul class="list-unstyled footer-link">
-                            <li class="d-block mb-3">
-                                <span class="d-block text-black">Address:</span>
-                                <span>34 Street Name, City Name Here, United States</span>
-                            </li>
-                            <li class="d-block mb-3"><span class="d-block text-black">Phone:</span><span>+1 242 4942
-                                    290</span></li>
-                            <li class="d-block mb-3"><span
-                                    class="d-block text-black">Email:</span><span>info@yourdomain.com</span></li>
-                        </ul>
-                    </div>
-                </div>
+
             </div>
-        </div>
-    </div>
-
-    <div class="site-section">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-12 text-center">
-                    <span class="text-cursive h5 text-red d-block">Testimonial</span>
-                    <h2 class="text-black">What Our Client Says About Us</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <div class="testimonial-3-wrap">
-
-
-                        <div class="owl-carousel nonloop-block-13">
-                            <div class="testimonial-3 d-flex">
-                                <div class="vcard-wrap mr-5">
-                                    <img src="images/person_1.jpg" alt="Image" class="vcard img-fluid">
-                                </div>
-                                <div class="text">
-                                    <h3>Jeff Woodland</h3>
-                                    <p class="position">Partner</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam earum libero rem
-                                        maxime magnam. Similique esse ab earum, autem consectetur.</p>
-                                </div>
-                            </div>
-
-                            <div class="testimonial-3 d-flex">
-                                <div class="vcard-wrap mr-5">
-                                    <img src="images/person_3.jpg" alt="Image" class="vcard img-fluid">
-                                </div>
-                                <div class="text">
-                                    <h3>Jeff Woodland</h3>
-                                    <p class="position">Partner</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam earum libero rem
-                                        maxime magnam. Similique esse ab earum, autem consectetur.</p>
-                                </div>
-                            </div>
-
-                            <div class="testimonial-3 d-flex">
-                                <div class="vcard-wrap mr-5">
-                                    <img src="images/person_2.jpg" alt="Image" class="vcard img-fluid">
-                                </div>
-                                <div class="text">
-                                    <h3>Jeff Woodland</h3>
-                                    <p class="position">Partner</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam earum libero rem
-                                        maxime magnam. Similique esse ab earum, autem consectetur.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 @endsection

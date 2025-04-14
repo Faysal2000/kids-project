@@ -29,7 +29,7 @@ return [
     'use2' => 'Uygulama açıldığında kameranızı hedef yüzeye doğrultun.',
     'use3' => 'Gezegenleri seçerek etkileşimli öğrenmeye başlayın.',
 
-    'benefits' => 'Faydaları',
+    'benefits' => 'Proje Katkıları',
     'benefits1' => 'Bilgiyi eğlenceli hale getirir.',
     'benefits2' => 'Görsel hafızayı güçlendirir.',
     'benefits3' => 'STEM eğitimine katkı sağlar.',
@@ -46,7 +46,8 @@ return [
     'last name' => 'Soyadın',
     'email adress' => 'Email ',
     'write your message' => 'mesajını yaz',
-
+    'Games You Like' => 'Beğeneceksiniz Oyunlar',
+    'Little Astronauts' => 'Minik Astronotlar',
 
 
 

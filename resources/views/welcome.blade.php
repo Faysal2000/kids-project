@@ -51,7 +51,7 @@
                     <h3 class="text-black">{{ __('message.bring fun life to your kids') }}</h3>
                     <p><span>{{ __('message.about text') }}</span></p>
 
-                    <p class="mt-5"><a href="#"
+                    <p class="mt-5"><a href="/about"
                             class="btn btn-warning py-4 btn-custom-1">{{ __('message.learn more') }}</a></p>
                 </div>
             </div>
