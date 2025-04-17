@@ -40,7 +40,18 @@ https://drive.google.com/drive/u/0/folders/1lSMEQMB6SXVXuuWFmUKO_PTEv3aiH8kK
 🔹 Arayüz tasarımlarının yapılması (çocuklara özel UX)  
 🔹 Test sürümünün hazırlanması ve hata ayıklama
 
-7. Hafta  
+
+## Uygulama Görüntüleri:  
+Main Page:  
+![Image](https://github.com/user-attachments/assets/df97153c-c444-45b3-ad68-7e501f5e4ec9)
+
+Oyunlar Page:  
+![Image](https://github.com/user-attachments/assets/4cc3ba18-8423-4c9e-ad6a-ccf8ab95f1b5)
+
+About Us Page:  
+![Image](https://github.com/user-attachments/assets/71c6066a-365b-4c6a-90d4-2593883d171c)
+
+8. Hafta  
 🔹 Projenin tamamlanması ve sunuma hazır hale getirilmesi  
 🔹 README, dökümantasyon ve tanıtım sayfasının hazırlanması
 
