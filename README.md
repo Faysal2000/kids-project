@@ -39,7 +39,10 @@ https://drive.google.com/drive/u/0/folders/1lSMEQMB6SXVXuuWFmUKO_PTEv3aiH8kK
 6. Hafta  
 🔹 Arayüz tasarımlarının yapılması (çocuklara özel UX)  
 🔹 Test sürümünün hazırlanması ve hata ayıklama
-
+  
+7. Hafta  
+🔹 Projenin tamamlanması ve sunuma hazır hale getirilmesi  
+🔹 README, dökümantasyon ve tanıtım sayfasının hazırlanması
 
 ## Uygulama Görüntüleri:  
 Main Page:  
@@ -51,7 +54,5 @@ Oyunlar Page:
 About Us Page:  
 ![Image](https://github.com/user-attachments/assets/71c6066a-365b-4c6a-90d4-2593883d171c)
 
-8. Hafta  
-🔹 Projenin tamamlanması ve sunuma hazır hale getirilmesi  
-🔹 README, dökümantasyon ve tanıtım sayfasının hazırlanması
+
 
