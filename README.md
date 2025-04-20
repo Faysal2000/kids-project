@@ -48,14 +48,14 @@ https://drive.google.com/drive/u/0/folders/1lSMEQMB6SXVXuuWFmUKO_PTEv3aiH8kK
 ## Kurulum ve Kullanım Talimatları ⚙️   
 
 ##  Kurulum  
-Unity 2021.3+ sürümünü indir
-Proje klasörünü aç
-Vuforia lisansı al ve entegre et
-Build settings üzerinden Android seç ve projeyi derle
+Unity 2021.3+ sürümünü indir  
+Proje klasörünü aç  
+Vuforia lisansı al ve entegre et  
+Build settings üzerinden Android seç ve projeyi derle  
 
 ##  Kullanım  
-QR kodu tarat
-Gezegenleri keşfet
+QR kodu tarat  
+Gezegenleri keşfet  
 
 ##  Teknolojiler ve Araçlar  
 Unity
