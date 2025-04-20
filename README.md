@@ -44,6 +44,29 @@ https://drive.google.com/drive/u/0/folders/1lSMEQMB6SXVXuuWFmUKO_PTEv3aiH8kK
 🔹 Projenin tamamlanması ve sunuma hazır hale getirilmesi  
 🔹 README, dökümantasyon ve tanıtım sayfasının hazırlanması
 
+
+## Kurulum ve Kullanım Talimatları ⚙️   
+
+##  Kurulum  
+Unity 2021.3+ sürümünü indir
+Proje klasörünü aç
+Vuforia lisansı al ve entegre et
+Build settings üzerinden Android seç ve projeyi derle
+
+##  Kullanım  
+QR kodu tarat
+Gezegenleri keşfet
+
+##  Teknolojiler ve Araçlar  
+Unity
+C#
+Vuforia (AR SDK)
+Firebase (isteğe bağlı backend)
+Trello (yönetim)
+
+
+
+
 ## Uygulama Görüntüleri:  
 Main Page:  
 ![Image](https://github.com/user-attachments/assets/df97153c-c444-45b3-ad68-7e501f5e4ec9)
