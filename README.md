@@ -58,11 +58,11 @@ QR kodu tarat
 Gezegenleri keşfet  
 
 ##  Teknolojiler ve Araçlar  
-Unity
-C#
-Vuforia (AR SDK)
-Firebase (isteğe bağlı backend)
-Trello (yönetim)
+Unity  
+C#  
+Vuforia (AR SDK)  
+Firebase (isteğe bağlı backend)  
+Trello (yönetim)  
 
 
 
