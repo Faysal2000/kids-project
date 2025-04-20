@@ -31,9 +31,8 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="package text-center bg-white">
-                        <span class="img-wrap"><img src="images/flaticon/svg/001-jigsaw.svg" alt="Image"
-                                class="img-fluid"></span>
-                        <h3 class="text-teal">{{ __('message.AR Solar System') }}</h3>
+
+                        <h3 class="text-teal">QR Code Eklenecek..</h3>
                         <p>{{ __('message.bring fun life to your kids') }}</p>
                         <p><a href="/qrcode" class="btn btn-primary btn-custom-1 mt-4">{{ __('message.learn more') }}</a>
                         </p>

@@ -52,6 +52,9 @@ Route::get('/games', function () {
 });
 
 
+Route::get('/qrcode', function () {
+    return view('qrcode');
+});
 
 
 

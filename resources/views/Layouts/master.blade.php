@@ -51,8 +51,7 @@
             <div class="container mb-3">
                 <div class="d-flex align-items-center">
                     <div class="site-logo mr-auto">
-                        <a href="index.html">{{ __('message.Little Astronauts') }}<span
-                                class="text-primary">.</span></a>
+                        <a href="/home">{{ __('message.Little Astronauts') }}<span class="text-primary">.</span></a>
                     </div>
                     <div class="site-quick-contact d-none d-lg-flex ml-auto ">
 
