@@ -28,6 +28,7 @@
                     <h2 class="text-white">{{ __('message.games') }}</h2>
                 </div>
             </div>
+            
             <div class="row">
                 <div class="col-lg-4">
                     <div class="package text-center bg-white">

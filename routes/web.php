@@ -1,5 +1,8 @@
 <?php
 
+
+
+use SimpleSoftwareIO\QrCode\Facades\QrCode;
 use Illuminate\Support\Facades\Route;
 use Spatie\FlareClient\View;
 use App\Http\Controllers\LangController;
@@ -60,3 +63,9 @@ Route::get('/qrcode', function () {
 
 //language route
 Route::get('locale/{lang}', [LocaleController::class, 'setLocale']);
+
+
+
+Route::get('/redirect-to-app', function () {
+    return redirect('https://yourdomain.com/app.apk'); // غيّر الرابط لاحقاً حسب الحاجة
+});

@@ -48,7 +48,8 @@ return [
     'write your message' => 'mesajını yaz',
     'Games You Like' => 'Beğeneceksiniz Oyunlar',
     'Little Astronauts' => 'Minik Astronotlar',
-
+    'Scan QR'=>'Unity uygulamasını başlatmak için bu QR Kodunu telefonunuzla tarayın.',
+    'Open QR'=>'Uygulamayı Açmak İçin QR Kodunu Tarayın',
 
 
 

@@ -32,7 +32,13 @@
                 <div class="col-lg-4">
                     <div class="package text-center bg-white">
 
-                        <h3 class="text-teal">QR Code Eklenecek..</h3>
+                        <div class="container text-center my-2">
+                            <h2 class="mb-4">{{ __('message.Open QR') }}</h2>
+        
+                                 {!! QrCode::size(200)->generate(url('https://play.google.com/store/apps/details?id=com.unity3d.mobileremote&pcampaignid=web_share')) !!}
+        
+                                 <p class="mt-3">{{ __('message.Scan QR') }}</p>
+                        </div>
                         <p>{{ __('message.bring fun life to your kids') }}</p>
                         <p><a href="/qrcode" class="btn btn-primary btn-custom-1 mt-4">{{ __('message.learn more') }}</a>
                         </p>

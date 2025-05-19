@@ -49,6 +49,8 @@ return [
     'write your message' => 'write your message',
     'Games You Like' => 'Games You Like',
     'Little Astronauts' => 'Little Astronauts',
+    'Scan QR'=>'Scan this QR Code with your phone to launch the Unity AR app.',
+    'Open QR'=>'Scan the QR Code to Open the App',
 
 
 
